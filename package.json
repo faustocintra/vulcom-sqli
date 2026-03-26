@@ -7,15 +7,20 @@
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "express": "latest",
-    "sqlite3": "latest",
     "body-parser": "latest",
-    "ejs": "latest"
+    "ejs": "latest",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "latest"
   },
-  "keywords": ["ctf", "security", "sql injection", "vulcom"],
+  "keywords": [
+    "ctf",
+    "security",
+    "sql injection",
+    "vulcom"
+  ],
   "author": "",
   "license": "MIT"
 }
